@@ -201,7 +201,32 @@
     width: 100%;
     background-image: url('./images/wallpaperRDR2.jpg');
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 5px;
     flex: 1;
   }
 
+
+@media screen and (max-width: 768px) {
+  .wallpaper {
+    background-position: -450px;
+  }
+}
+
+@media screen and (width: 1024px) and (height:927px) {
+  .wallpaper {
+    background-position: -200px;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .wallpaper {
+    background-position: -200px;
+  }
+}
+
+@media screen and (width: 2560px) {
+  .wallpaper {
+    background-position: -400px;
+  }
+}
